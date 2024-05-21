@@ -1,0 +1,14 @@
+{
+  "name": "@vitest-tests/test-sharding",
+  "type": "module",
+  "packageManager": "pnpm@8.9.2",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "beta",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vitest": "beta"
+  }
+}
