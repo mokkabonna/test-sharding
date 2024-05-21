@@ -59,5 +59,10 @@ jobs:
           path: .vitest-reports
           pattern: blob-report-*
 
+      - name: Check .vitest-reports
+        run: |
+          ls -la .vitest-reports
+          ls -la .vitest-reports/*
+
       - name: Merge reports
         run: npx vitest --merge-reports
