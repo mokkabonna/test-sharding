@@ -32,7 +32,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: blob-report-${{ matrix.shardIndex }}
-          path: .vitest-reports
+          path: .vitest-reports/*
           retention-days: 1
 
   merge-reports:
@@ -58,6 +58,7 @@ jobs:
         with:
           path: .vitest-reports
           pattern: blob-report-*
+          merge-multiple: true
 
       - name: Check .vitest-reports
         run: |
