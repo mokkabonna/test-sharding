@@ -6,9 +6,9 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@vitest/coverage-v8": "beta",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.11",
-    "vitest": "beta"
+    "@vitest/coverage-v8": "^2.0.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3",
+    "vitest": "^2.0.1"
   }
 }
